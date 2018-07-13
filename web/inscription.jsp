@@ -17,7 +17,15 @@
     <body>
         <c:import url="_TITRE.jsp"/>
         <c:import url="_MENU.jsp"/>
-        <div>CONTERNU PAR DEFAUT</div>
+        <div>
+            <form method="post">
+                <label>Pseudo</label>
+                <input name="pseudo">
+                <label>M-d-p</label>
+                <input name="mdp">
+                <input type="submit">
+            </form>
+        </div>
         <c:import url="_PIED.jsp"/>
         <c:import url="_JAVASCRIPTS.jsp"/>
     </body>

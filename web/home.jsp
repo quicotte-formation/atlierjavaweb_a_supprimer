@@ -17,7 +17,9 @@
     <body>
         <c:import url="_TITRE.jsp"/>
         <c:import url="_MENU.jsp"/>
-        <div>CONTERNU PAR DEFAUT</div>
+        <div>
+            Yo!
+        </div>
         <c:import url="_PIED.jsp"/>
         <c:import url="_JAVASCRIPTS.jsp"/>
     </body>
